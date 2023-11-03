@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Get book on Z-Library
+// @name         Download book on Z-Library
 // @namespace    https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads
 // @version      0.1
-// @description  Change "Buy on Amazon" button for "Download on Z-Library"
+// @description  Change "Buy on Amazon" button to "Download on Z-Library"
 // @author       ludwiklejzer (https://github.com/ludwiklejzer)
 // @match        https://*.goodreads.com/book/*
 // @supportURL   https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/issues
@@ -18,7 +18,9 @@
   let originalBtn;
   const newBtn = document.createElement("div");
   const span = document.createElement("span");
-  const bookName = document.querySelector( "[data-testid='bookTitle']",).innerText;
+  const bookName = document.querySelector(
+    "[data-testid='bookTitle']",
+  ).innerText;
   const url = `https://z-library.se/s/?q=${encodeURI(bookName)}`;
 
   span.innerText = "Download on Z-Library";
@@ -32,6 +34,8 @@
   newBtn.onclick = () => window.open(url, "_blank").focus();
   newBtn.appendChild(span);
 
-  originalBtn = document.querySelector( "button.Button.Button--buy.Button--medium.Button--block",);
+  originalBtn = document.querySelector(
+    "button.Button.Button--buy.Button--medium.Button--block",
+  );
   originalBtn.replaceWith(newBtn);
 })();
