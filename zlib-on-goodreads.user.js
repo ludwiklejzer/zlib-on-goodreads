@@ -7,8 +7,8 @@
 // @match        https://*.goodreads.com/book/*
 // @supportURL   https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/issues
 // @homepageURL  https://github.com/ludwiklejzer/zlib-on-goodreads
-// @updateURL    https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/tabbusca.user.js
-// @downloadURL  https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/tabbusca.user.js
+// @updateURL    https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/zlib-on-goodreads.user.js
+// @downloadURL  https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/zlib-on-goodreads.user.js
 // @grant        none
 // ==/UserScript==
 
