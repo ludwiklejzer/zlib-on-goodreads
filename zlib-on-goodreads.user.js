@@ -5,7 +5,7 @@
 // @description  Change "Buy on Amazon" button to "Download on Z-Library"
 // @author       ludwiklejzer (https://github.com/ludwiklejzer)
 // @match        https://*.goodreads.com/book/*
-// @supportURL   https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/issues
+// @supportURL   https://github.com/ludwiklejzer/zlib-on-goodreads/issues
 // @homepageURL  https://github.com/ludwiklejzer/zlib-on-goodreads
 // @updateURL    https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/zlib-on-goodreads.user.js
 // @downloadURL  https://raw.githubusercontent.com/ludwiklejzer/zlib-on-goodreads/main/zlib-on-goodreads.user.js
