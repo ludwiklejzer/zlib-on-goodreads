@@ -15,7 +15,9 @@
 (function () {
   "use strict";
 
-  let originalBtn;
+  const originalBtn = document.querySelector(
+    "button.Button.Button--buy.Button--medium.Button--block",
+  );
   const newBtn = document.createElement("div");
   const span = document.createElement("span");
   const bookName = document.querySelector(
@@ -34,8 +36,5 @@
   newBtn.onclick = () => window.open(url, "_blank").focus();
   newBtn.appendChild(span);
 
-  originalBtn = document.querySelector(
-    "button.Button.Button--buy.Button--medium.Button--block",
-  );
   originalBtn.replaceWith(newBtn);
 })();
